@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  <h1>Black goese bistro | pizza-on-Demand</h1>
+ <p>
+   our 12&quest; wood-fired pizzas are available for delivery.</p>
+    <form action="">
+      <fieldset border="1">
+        <legend>your information
+         </legend>
+         <laber for"name">Name:</label>
+          <input type="text" id="name" name="name">
+           <label for="address">:</label>
+           <input type="text" id="address" name="address">
+            </p>
+            
+            <p>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+             
+         
+     
+     
+      </fieldset>
+    </form>
+   
+  </body>
+
+  </html>
