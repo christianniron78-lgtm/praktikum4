@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f5f5dc;
+    font-family: Verdana, 'Lucida Sans', sans-serif;
+    font-size: 14px;
+    color: #222;
+}
+
+/* Header */
+header {
+    background-color: burlywood;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    font-size: 1.6em;
+    margin: 10px 0 15px 0;
+}
+
+blockquote {
+    background-color: gold;
+    border: 1px dotted black;
+    margin: 0 auto;
+    padding: 5px 10px;
+    font-size: 0.85em;
+    text-align: center;
+}
+
+/* Navigasi */
+nav {
+    text-align: center;
+    margin: 15px 0;
+}
+
+nav a {
+    color: #333366;
+    margin: 0 4px;
+    font-size: 0.9em;
+}
+
+nav a:hover {
+    color: red;
+}
+
+/* Gambar */
+.gambar {
+    text-align: center;
+}
+
+.gambar img {
+    width: 40%;
+    max-width: 200px;
+    border-radius: 8px;
+    margin: 0 2px;
+}
+
+/* Paragraf */
+p {
+    text-align: justify;
+    line-height: 1.4;
+}
+
+/* Huruf pertama besar (drop cap) */
+.awal::first-letter {
+    float: left;
+    font-size: 3em;
+    line-height: 0.9;
+    color: blue;
+    padding-right: 3px;
+}
+
+h4 {
+    margin-top: 10px;
+}
